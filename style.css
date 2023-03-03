@@ -1,0 +1,29 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #16b826;
+    padding: 20px;
+    text-align: center;
+  }
+  @media screen(max-width:780px) {
+    .grid-container{
+      display:grid;
+      grid-template-rows:auto
+      
+    }
+    
+    
+  }
+  
